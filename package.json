@@ -1,0 +1,90 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "macos-reactions",
+  "title": "MacOS Reactions",
+  "description": "Send a reaction to your video",
+  "icon": "command-icon.png",
+  "author": "vmitchell85",
+  "categories": [
+    "Communication",
+    "System"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "hearts",
+      "title": "React - Hearts",
+      "description": "Play the hearts reaction",
+      "mode": "no-view",
+      "icon": "heart-icon.png"
+    },
+    {
+      "name": "thumbs-up",
+      "title": "React - Thumbs Up",
+      "description": "Play the thumbs up reaction",
+      "mode": "no-view",
+      "icon": "thumbs-up-icon.png"
+    },
+    {
+      "name": "thumbs-down",
+      "title": "React - Thumbs Down",
+      "description": "Play the thumbs down reaction",
+      "mode": "no-view",
+      "icon": "thumbs-down-icon.png"
+    },
+    {
+      "name": "balloons",
+      "title": "React - Ballons",
+      "description": "Play the balloons reaction",
+      "mode": "no-view",
+      "icon": "balloons-icon.png"
+    },
+    {
+      "name": "rain",
+      "title": "React - Rain",
+      "description": "Play the rain reaction",
+      "mode": "no-view",
+      "icon": "rain-icon.png"
+    },
+    {
+      "name": "confetti",
+      "title": "React - Confetti",
+      "description": "Play the confetti reaction",
+      "mode": "no-view",
+      "icon": "confetti-icon.png"
+    },
+    {
+      "name": "lasers",
+      "title": "React - Lasers",
+      "description": "Play the lasers reaction",
+      "mode": "no-view",
+      "icon": "lasers-icon.png"
+    },
+    {
+      "name": "fireworks",
+      "title": "React - Fireworks",
+      "description": "Play the fireworks reaction",
+      "mode": "no-view",
+      "icon": "fireworks-icon.png"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.67.1",
+    "@raycast/utils": "^1.12.4"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.6",
+    "@types/node": "20.8.10",
+    "@types/react": "18.2.27",
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
